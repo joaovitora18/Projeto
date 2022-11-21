@@ -1,0 +1,52 @@
+
+
+/* ##################### COMEÇO DO GERAL #################### */
+@font-face {
+    font-family: 'texto_menu';
+    src: url("../fontes/melorist.ttf");
+}
+@font-face {
+    font-family: 'texto';
+    src: url("../fontes/saudagar.ttf");
+}
+
+body{
+    background-color: rgb(216, 193, 142);
+    font-family: 'texto';
+    padding: 0px;
+    margin: 0px;
+}
+
+.superior{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    height: 22px;
+}
+
+.redes_sociais{
+    max-width: 15%;
+}
+
+.logo{
+    width: 5%;
+}
+
+/* ###################### FIM DO GERAL ##################### */
+/* ##################### COMEÇO DO MENU #################### */
+
+
+/* ###################### FIM DO MENU ###################### */
+/* ################# COMEÇO DO COMPETÊNCIAS ################ */
+
+
+/* ################### FIM DO COMPÊTENCIAS ################# */
+/* #################### COMEÇO DESTAQUES ################### */
+
+
+/* #################### FIM DO DESTAQUES ################### */
+/* ################### COMEÇO DO NOVIDADES ################# */
+
+
+/* #################### FIM DO NOVIDADES ################### */
+/* ##################### COMEÇO RODAPÉ ##################### */
