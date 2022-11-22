@@ -12,9 +12,7 @@
     <?php include('header.html'); ?>
 
     <!-- Começo da pagina -->
-<section class="destaques">
-    <h1>Destaques</h1>
-</section>
+    
     <!-- Fim da página -->
 
     <!-- Inclusão do rodapé -->
