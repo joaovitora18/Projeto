@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /* ##################### COMEÇO DO GERAL #################### */
 @font-face {
@@ -65,29 +68,44 @@ body{
 .pesquisa_item{
     height: 30px;
     border-radius: 25px;
-    background-color: beige;
+    background-color: rgb(243, 243, 189);
+    border: solid 1px rgb(243, 243, 189);
 
 }
 .destaques{
+    border: solid 1px beige;
+    border-radius: 25px;
+    margin: 20px 75px 5px;
+    background-color:aliceblue;
 
+}
+#destaques{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.imagens{
+    width: 300px;
+    border: solid 1px beige;
+    border-radius: 25px 25px 0px 0px ;
+    margin: 0px 30px;
 }
 /* ###################### FIM DO GERAL ##################### */
 /* ##################### COMEÇO DO MENU #################### */
 .menu{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-evenly;
     background-color: beige;
     border-radius: 0px 0px 27px 27px;
     padding: 20px 0px 0px 0px;
 
 }
 .menu li{
-    display: inline-block;
-    padding: 0px 20px 0px 20px;
-    margin: 0px 30px;
-    border: solid 1px;
-    border-radius: 6px ;
+    display: inline;
 }
 .menu ul{
     list-style: none;
@@ -99,9 +117,46 @@ body{
     color: black;
     font-size: large;
     text-decoration: none;
+    border: solid 1px rgb(243, 243, 189);
+    border-radius: 6px ;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 30px;
 }
-.
+.menu a:hover{
+    background-color: aqua;
+    color: black;
+}
 /* ###################### FIM DO MENU ###################### */
+/* ####################  COMEÇO SLIDES ##################### */
+.slider {
+    width: 1920px;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    list-style: none;
+    width: 5760px;
+    height: 600px;
+}
+
+.slider li {
+    position: relative;
+    animation: vrau 15s infinite ease-out;
+}
+
+@keyframes vrau {
+    0%{left: 0px;}
+    20%{left: 0px;}
+    30%{left: -1920;}
+    50%{left: -1920;}
+    60%{left: -3840;}
+    90%{left: -3840;}
+    0%{left: 0px;}
+}
+/* ###################### FIM SLIDES ####################### */
 /* ################# COMEÇO DO COMPETÊNCIAS ################ */
 
 
@@ -115,3 +170,19 @@ body{
 
 /* #################### FIM DO NOVIDADES ################### */
 /* ##################### COMEÇO RODAPÉ ##################### */
+.rodape{
+    display: flex;
+    margin: 0px 150px;
+}
+.adicionais{
+    justify-content: right;
+}
+.redefooter{
+}
+.mapa{
+    justify-content: left;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}

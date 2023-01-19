@@ -12,8 +12,31 @@
     <?php include('header.html'); ?>
 
     <!-- Começo da pagina -->
+<section class="slider">
+    <ul>
+        <li>
+            <img src="imagens/brincospiercings.jpg" alt="">
+        </li>
+        <li>
+            <img src="imagens/aneis.jpg" alt="">
+        </li>
+        <li>
+            <img src="imagens/pulseiras.jpg" alt="">
+        </li>
+    </ul>
+
+</section>
+
 <section class="destaques">
+    <div>
     <h1>Destaques</h1>
+    <div id="destaques">
+        <img src="imagens/anel.jpg"  class="imagens" alt="">
+        <img src="imagens/anel.jpg"  class="imagens" alt="">
+        <img src="imagens/anel.jpg"  class="imagens" alt="">
+        <img src="imagens/anel.jpg"  class="imagens" alt="">
+    </div>
+    </div>
 </section>
     <!-- Fim da página -->
 
